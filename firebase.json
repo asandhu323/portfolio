@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "avneetksandhu",
-    "public": "public",
+    "public": "src",
     "ignore": [
       "firebase.json",
       "**/.*",
