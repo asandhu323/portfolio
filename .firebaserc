@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "avneetksandhu"
+  },
+  "targets": {
+    "avneetksandhu-d28fe": {
+      "hosting": {
+        "site": [
+          "avneetksandhu"
+        ]
+      }
+    }
   }
 }
