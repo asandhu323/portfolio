@@ -1,17 +1,10 @@
 {
   "hosting": {
-    "site": "avneetksandhu",
-    "public": "src",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/App.js"
-      }
     ]
   }
 }
