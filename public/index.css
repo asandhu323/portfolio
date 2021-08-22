@@ -70,16 +70,13 @@ footer {
   width: 40px;
   height: 100%;
   padding-top: 15%;
+  text-align: center;
 }
 
-.icon img {
+footer img {
   max-width: 80%;
   margin-bottom: 25%;
   filter: drop-shadow(2px 2px 5px #222);
-}
-
-.icon {
-  text-align: center;
 }
 
 .tooltip {
