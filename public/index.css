@@ -29,7 +29,7 @@ aside {
   width: 37%;
   height: 80%;
   border: 5px white solid;
-  margin: 2% 2% 2% 55px;
+  margin: 2% 2% 2% 4%;
   padding: 2%;
   text-align: center;
 }
@@ -40,6 +40,7 @@ div.wrap {height:100%; overflow:hidden;}
   border-radius: 50%;
   max-height: 90%;
   bottom: 0;
+  border: 3px solid white;
 }
 
 #img-holder {
@@ -67,7 +68,7 @@ footer {
   left: 0;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.5);
-  width: 40px;
+  width: 3%;
   height: 100%;
   padding-top: 15%;
 }
@@ -93,7 +94,6 @@ footer {
   background-color: white;
   color: black;
   text-align: center;
-  padding: 5px 0;
   border-radius: 6px;
  
   position: absolute;
@@ -119,3 +119,27 @@ footer {
   top: -5px;
   left: 105%;
 }
+
+#content {
+  float: right;
+  width: 48%;
+  padding: 2%;
+  height: 90%;
+}
+
+.ui-accordion-content {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ui-accordion-header-active {
+  background: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+	background-image: url("http://code.jquery.com/ui/1.12.1/themes/base/images/ui-icons_444444_256x240.png");
+}
+
