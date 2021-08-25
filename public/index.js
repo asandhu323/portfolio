@@ -2,7 +2,8 @@ $(document).ready(function(){
   console.log("ready");
 
   $( "#accordion" ).accordion({
-    heightStyle: "fill"
+    heightStyle: "fill",
+    collapsible: "true"
   });
 
   $( "#tabs" ).tabs({
