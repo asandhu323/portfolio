@@ -1,99 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Avneet Sandhu - Portfolio</title>
+  <meta name="description" content=""/>
   <link rel="icon" type="image/png" href="img/favicon.png">
 
-
-
-  <!-- update the version number as needed -->
   <script defer src="/__/firebase/8.10.0/firebase-app.js"></script>
-  <!-- include only the Firebase features as you need -->
-  <!-- <script defer src="/__/firebase/8.10.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.10.0/firebase-performance.js"></script> -->
-  <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
   <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-
   <link rel="stylesheet" href="index.css">
 </head>
 
 
 <body>
   <div class="wrap">
+
+
     <aside id="about">
+
       <div id="img-holder">
         <img src="img/moi.jpg" alt="Avneet Sandhu" id="me" />
       </div>
+
       <div id="desc">
         <h2>Avneet Sandhu</h2>
+
         <h3>Software/Web Developer</h3>
+
         <p></br>Determined, diligent, and delightful. </br></br>A background in scientific research enables me to
           approach problems systematically and develop thorough, efficient resolutions. Passionate about lifelong
           learning and designing accessible, sustainable, client-focused solutions.</p>
       </div>
+
     </aside>
 
+
+
 <div id="content">
+
     <div id="accordion">
       <h3>Major Projects</h3>
       <div>
+
         <div id="tabs">
           <ul>
             <li><a href="#tabs-1">50% Greener</a></li>
             <li><a href="#tabs-2">Better2Learn</a></li>
           </ul>
+
           <div id="tabs-1" class="container"> <small>Hover!</small>
             <img class="image" src="img/50green.jpg" alt="50% Greener web application"/>
-            <div id="green-desc" class="overlay"><div class="text"><strong>Description</strong></br>Planned, designed, and coded a single-page web application that:
-              <ul><li>Calculates a carbon emissions score,</li> 
-                <li>Allows user to set a goal for emissions reduction,</li>
-              <li>And provides fun challenges to encourage users to create lifelong sustainable habits.</li></ul>
-              <strong>Tech Stack </strong></br>HTML, CSS, JavaScript, jQuery, Node.js, SQL, AWS, GitHub, Trello
-              </br><div id="green-links"><div><a href="https://www.youtube.com/watch?v=hazujgBWldI" target="_blank">Explanatory Video</a></div>
-              <div><a href="https://fiftygreener.herokuapp.com/" target="_blank">Live Application</a></div></div>
-            </div></div>
-          </div>
-          <div id="tabs-2" class="container"> <small>Hover!</small>
-            <img class="image" src="img/learn.jpg" alt="Better2Learn web application"/>
-            <div id="learn-desc" class="overlay"><div class="text"><strong>Description</strong></br>Create a web application designed to:
-              <ul><li>Aid students in the transition to online learning,</li> 
-                <li>Promote organizational skills,</li>
-              <li>And promote self-discipline</li></ul> By tracking:
-              <ul><li>Time spent on assignments</li>
-              <li>And grade earned.</li></ul>
 
-              <strong>Tech Stack </strong></br>HTML, CSS, JavaScript, jQuery, Firebase, GitHub, Trello
-              </br><div id="learn-links">
-              <div><a href="https://better2learn-bcc78.web.app/" target="_blank">Live Application</a></div></div>
+            <div id="green-desc" class="overlay"><div class="text">
+              <strong>Description</strong>
+              </br>Planned, designed, and coded a single-page web application that:
+              <ul>
+                <li>Calculates a carbon emissions score,</li> 
+                <li>Allows user to set a goal for emissions reduction,</li>
+                <li>And provides fun challenges to encourage users to create lifelong sustainable habits.</li>
+              </ul>
+              <strong>Tech Stack </strong>
+              </br>HTML, CSS, JavaScript, jQuery, Node.js, SQL, AWS, GitHub, Trello
+              </br>
+              <div id="green-links">
+                <div><a href="https://www.youtube.com/watch?v=hazujgBWldI" target="_blank">Explanatory Video</a></div>
+                <div><a href="https://fiftygreener.herokuapp.com/" target="_blank">Live Application</a></div>
+                <div><a href="https://github.com/asandhu323/50greener" target="_blank">GitHub Repo</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="tabs-2" class="container"> <small>Hover!</small>
+            <img class="image" src="img/learn.jpg" alt="Better2Learn web application"/>
+
+            <div id="learn-desc" class="overlay">
+              <div class="text"><strong>Description</strong>
+                </br>Create a web application designed to:
+                <ul>
+                  <li>Aid students in the transition to online learning,</li> 
+                  <li>Promote organizational skills,</li>
+                  <li>And promote self-discipline</li></ul> 
+                By tracking:
+                <ul>
+                  <li>Time spent on assignments</li>
+                  <li>And grade earned.</li>
+                </ul>
+              <strong>Tech Stack </strong>
+              </br>HTML, CSS, JavaScript, jQuery, Firebase, GitHub, Trello
+              </br>
+              <div id="learn-links">
+                <div><a href="https://better2learn-bcc78.web.app/" target="_blank">Live Application</a></div>
+                <div><a href="https://github.com/asandhu323/better2learn" target="_blank">GitHub Repo</a></div>
+              </div>
             </div></div>
           </div>
         </div>
       </div>
+
       <h3>Mini Projects</h3>
       <div>
-        <p>
-          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-          suscipit faucibus urna.
-        </p>
+        <div id="tabs2">
+          <ul>
+            <li><a href="#tabs-3">Web Dev</a></li>
+            <li><a href="#tabs-4">Java</a></li>
+            <li><a href="#tabs-5">Python</a></li>
+          </ul>
+
+          <div id="tabs-3" class="container">
+
+            <a href="https://asandhu323.github.io/weather-react/" target="_blank"><img src="img/weather.png" alt="React Weather App"/></a>
+            <div><strong>React Weather App</strong><ul>
+              <li>Search for a city to see it's weather</li>
+              <li>Background changes depending on temperature and weather conditions</li>
+              <li>Uses OpenWeather API</li>
+              <li>Built with React</li>
+            </ul>
+            <a href="https://asandhu323.github.io/weather-react/" target="_blank">Live Application</a></br>
+            <a href="https://github.com/asandhu323/weather-react" target="_blank">GitHub Repository</a>
+            </div>
+
+            <a href="https://asandhu323.github.io/responsive-web-design/" target="_blank"><img src="img/rwd.png" alt="Responsive Web Design"/></a>
+            <div><strong>Responsive Web Design</strong><ul>
+              <li>Supports 3 resolutions</li>
+              <li>Site's main content, side bar, header, and navigation change depending on screen size</li>
+              <li>Uses HTML and CSS</li>
+            </ul>
+            <a href="https://asandhu323.github.io/responsive-web-design/" target="_blank">Live Application</a></br>
+            <a href="https://github.com/asandhu323/responsive-web-design" target="_blank">GitHub Repository</a>
+            </div>
+          </div>
+
+
+          <div id="tabs-4" class="container">
+            <a href="https://github.com/asandhu323/cat-hotel" target="_blank"><img src="img/cat-hotel.png" alt="Java Cat Hotel"/></a>
+            <div><strong>Cat Hotel</strong>
+              <ul>
+                <li>Create a Cat object and check into the Cat Hotel</li>
+                <li>Add/remove guests and query the guestlist</li>
+                <li>Object-oriented design</li>
+              </ul>
+              <a href="https://github.com/asandhu323/cat-hotel" target="_blank">Github Repository</a>
+            </div>
+
+            <a href="https://github.com/asandhu323/java-shopping-cart" target="_blank"><img src="img/shopping.jpg" alt="Java Shopping Simulator"/></a>
+            <div><strong>Shopping Simulator</strong>
+              <ul>
+                <li>Create and buy items</li>
+                <li>Cart array is optimized to fit as little items as needed</li>
+                <li>Object-oriented design</li>
+              </ul>
+              <a href="https://github.com/asandhu323/java-shopping-cart" target="_blank">Github Repository</a>
+            </div>
+
+            <a href="https://github.com/asandhu323/java-games" target="_blank"><img src="img/games.jpg" alt="Java Games"/></a>
+            <div><strong>Games</strong>
+              <ul>
+                <li>Play rock, paper, scissors and a number-guessing game against this Java program</li>
+                <li>Uses loops and the Random class</li>
+              </ul>
+              <a href="https://github.com/asandhu323/java-games" target="_blank">Github Repository</a>
+            </div>
+          </div>
+
+
+          <div id="tabs-5" class="container">
+            <a href="https://github.com/asandhu323/python-bookstore" target="_blank"><img src="img/book.jpg" alt="Python Bookstore"/></a>
+            <div><strong>Bookstore</strong>
+              <ul>
+                <li>Add or delete books from inventory</li>
+                <li>See a summary of all books in inventory</li>
+                <li>Search for book by title, author, or keyword</li>
+                <li>Stores and retrieves book inventory from JSON file</li>
+              </ul>
+              <a href="https://github.com/asandhu323/python-bookstore" target="_blank">Github Repository</a>
+            </div>
+
+            <a href="https://github.com/asandhu323/python-parking-lot" target="_blank"><img src="img/car.jpg" alt="Python Parking Lot"/></a>
+            <div><strong>Parking Lot</strong>
+              <ul>
+                <li>Enter cars into parking lot and see all cars in lot</li>
+                <li>Query by car make, model, year, or license plate number to see if car is in lot</li>
+              </ul>
+              <a href="https://github.com/asandhu323/python-parking-lot" target="_blank">Github Repository</a>
+            </div>
+          </div>
+        </div>
       </div>
+
       <h3>Skills & Proficiencies</h3>
       <div id="skills">
       <div>
@@ -120,6 +219,7 @@
 
 
     <footer>
+      <div></div>
       <div class="icon" id="mail"><a class="tooltip" href="mailto:asandhu190@my.bcit.ca" target="_blank"><img
             src="img/mail.png" alt="email me" /><span class="tooltiptext">Send me an email!</span></a></div>
       <div class="icon" id="linkedin"><a class="tooltip" href="https://www.linkedin.com/in/avneetksandhu/"

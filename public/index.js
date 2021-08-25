@@ -8,4 +8,8 @@ $(document).ready(function(){
   $( "#tabs" ).tabs({
     heightStyle: "fill"
   });
+
+  $( "#tabs2" ).tabs({
+    heightStyle: "fill"
+  });
 })
