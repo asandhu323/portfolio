@@ -11,6 +11,6 @@ $(document).ready(function(){
   });
 
   $( "#tabs2" ).tabs({
-    heightStyle: "fill"
+    heightStyle: "content"
   });
 })
